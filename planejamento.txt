@@ -1,0 +1,28 @@
+DVsnotes:(Sistema de anotaçoes simples)
+
+o que o projeto precisa fazer?
+
+- listar as anotaçoes
+- Pegar informações de uma anotação
+- inserir anotação nova
+- atualizar uma anotação
+- deletar uma anotação
+-
+
+qual a estrutura de dados?
+
+- local para armazenar as anotações
+-- id
+-- title
+-- body
+
+quais end points == urls?
+
+- (Metodo) /url (Parametros)
+
+- (GET) /api/notes
+- (GET) /api/note/123
+- (POST) /api/note (title,body)
+- (PUT) /api/note/123 (title, body)
+- (DELETE) /api/note/123
+- 
